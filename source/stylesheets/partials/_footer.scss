@@ -1,0 +1,38 @@
+footer {
+  height:70px;
+  padding-top: 75px;
+}
+.nav-footer {
+  text-align: right;
+
+}
+
+.nav-footer > ul > li {
+
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: top;
+
+}
+.nav-footer > ul > li > a {
+  font-family: "Century";
+  font-size: 12px;
+}
+
+hr {
+  float: right;
+  margin-top: -15px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  width: 850px;
+}
+.credits {
+  text-align: right;
+  font-size: 10px;
+  margin-top: -45px;
+}
+.logo-footer {
+
+  position: absolute;
+  margin-top: -35px;
+}

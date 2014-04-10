@@ -1,0 +1,127 @@
+.presentation {
+  background-color: #faa61a;
+  height: 480px;
+  margin-top: 40px;
+  padding: 27px 51px;
+  padding-bottom: 40px;
+  padding-right: 0px;
+  width: 993px;
+}
+
+.info {
+  background-color: black;
+  display: inline-block;
+  height: 364px;
+  margin-top: 20px;
+  vertical-align: top;
+  width: 634px;
+}
+
+  .featuard {
+    background-color: #000;
+    color: #fff;
+    font-family: "ciclefineitalic";
+    font-size: 28px;
+    height: 30px;
+    margin-left: -23px;
+    margin-top: 30px;
+    opacity: 0.8;
+    position: absolute;
+    padding: 3px;
+    width: 200px;
+    z-index: 999;
+  }
+
+  .slider {
+    background-color: #000;
+    display: inline-block;
+    height: 364px;
+    vertical-align: top;
+    width: 435px;
+  }
+
+  .description {
+    display: inline-block;
+    font-size: 15px;
+    height: 340px;
+    padding-top: 25px;
+    padding-left: 20px;
+    vertical-align: top;
+    width: 174px;
+  }
+    .description > .title {
+      background-color: #fff;
+      font-family: "bebas";
+      padding: 0px 4px;
+    }
+    .description > p {
+      font-family: "Colab";
+      font-size: 18px;
+      color: #fff;
+      margin-left: 5px;
+      margin-top: 6px;
+      margin-bottom: 10px;
+    }
+    .description > p > span {
+      font-size: 14px;
+    }
+
+.ProjectDescription {
+  background-color: #fff;
+  display: inline-block;
+  height: 364px;
+  margin-left: 37px;
+  margin-top: 20px;
+  vertical-align: top;
+  width: 280px;
+}
+  .ProjectDescription > .title {
+    font-family: "bebas";
+    font-size: 22px;
+    margin-left: 14px;
+    margin-bottom: 0px;
+  }
+
+  .ProjectDescription > p {
+    color: #000;
+    font-family: "Colab";
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 11px;
+    margin-bottom: 9px;
+    padding: 0px 15px;
+    word-spacing: 3px;
+  }
+
+
+// READMORE
+.ProjectDescription > .readmore {
+  margin-right: 5px;
+}
+
+.readmore {
+  background-color: #faa61a;
+  color: #fff;
+  font-family: "Colab";
+  float: right;
+  height: 14px;
+  padding-bottom: 3px;
+  padding-right: 5px;
+  padding-left: 0;
+  padding-top: 5px;
+  text-decoration: none;
+  width: 95px;
+}
+.readmore > span {
+  position: absolute;
+  background-color: #000;
+  font-size: 14px;
+  margin-top: -5px;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 6px;
+  padding-bottom: 5px;
+}
+.readmore > img {
+  float: right;
+}

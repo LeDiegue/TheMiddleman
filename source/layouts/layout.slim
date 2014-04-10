@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+
+    /! Always force latest IE rendering engine or request Chrome Frame
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+
+    /! Use title if it's in the page YAML frontmatter
+    title == data.page.title || "The Middleman"
+
+    script src="javascripts/jquery-1.9.1.min.js"
+
+
+    == stylesheet_link_tag "normalize", "all"
+    == javascript_include_tag  "all"
+
+    javascript:
+      | $(document).ready(main);
+      | function main() {
+       | $(function() {
+        | $("#main-video-slider").codaSlider();
+        | $navthumb = $(".nav-thumb");
+        | $crosslink = $(".cross-link");
+        | $navthumb
+        .click(function() {
+         | var $this = $(this);
+         | theInterval($this.parent().attr('href').slice(1) - 1);
+         | return false;
+        | });
+        | theInterval();
+       | });
+      | }
+
+
+
+
+
+
+  body class="#{page_classes}"
+
+  .container
+
+    == partial "partials/header"
+
+    == yield
+
+    == partial "partials/footer"

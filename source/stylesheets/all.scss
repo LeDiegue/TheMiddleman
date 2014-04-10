@@ -1,0 +1,14 @@
+// Base CSS
+@import "base/base";
+@import "base/fonts";
+
+//Partials
+@import "partials/header";
+@import "partials/footer";
+
+
+// Modules
+@import "modules/presentation";
+@import "modules/cols";
+@import "modules/ourclients";
+@import "modules/slider"

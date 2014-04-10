@@ -1,0 +1,75 @@
+.row {
+
+}
+
+.suscribe {
+  position: fixed;
+  background-color: #faa61a;
+  float: right;
+  height: 30px;
+  margin-left: 633px;
+  margin-top: 1px;
+  width: 410px;
+
+}
+
+form {
+  input {
+    border: 0px;
+    height: 20px;
+    width: 226px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  label {
+    font-family: "Century Gothic", serif;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: -1px;
+  }
+}
+
+.form {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.social {
+  border-left: 1px #fff solid;
+  vertical-align: top;
+  display: inline-block;
+  padding: 4px;
+  padding-left: 7px;
+}
+
+
+.header {
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 40px;
+}
+
+.nav  {
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 150px;
+}
+
+.nav > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+  .nav > ul > li > img {
+  display: inline-block;
+  margin-top: 7px;
+  vertical-align: top;
+
+}
+.nav > ul > li > a {
+  font-family: "ciclegordita";
+  font-size: 14px;
+  margin-left: 5px;
+}
