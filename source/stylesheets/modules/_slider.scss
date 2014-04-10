@@ -28,19 +28,35 @@
   margin-bottom:7px;
 }
 iframe {
+  position: relative;
   border: 0;
+  z-index: 0;
 }
 
 .stripViewer .panelContainer { position: relative; left: 0; top: 0; }
 .stripViewer .panelContainer .panel { float: left; height: 100%; position: relative; width: 450px; }
 .stripNavL, .stripNavR, .stripNav { display: none; }
-.nav-thumb { border: 1px solid black; margin-right: 5px; width: 120px; height: 90px;}
+//.img { border: 1px solid black; margin-right: 5px; width: 120px; height: 90px;}
 #movers-row { margin: -39px 0 0 62px; }
 #movers-row div { width: 16.6%; float: left; }
-#movers-row div a.cross-link { float: right; margin-left: 800px; margin-top: -60px;}
-.cross-link { display: block; width: 58px; margin-top: -55px; position: relative; padding-top: 3px; z-index: 100; }
+//#movers-row div a.cross-link { float: right; margin-left: 800px; margin-top: -60px;}
+//.img { display: block; width: 58px; margin-top: -55px; position: relative; padding-top: 3px; z-index: 100; }
+.img {
+  display: block;
+  position: relative;
+  margin-top: -150px;
+  margin-left: 10px;
+  z-index: 999;
+}
 
-.miniatura {
-  margin-top: -100px;
-  position: absolute;
+.img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.panel {
+  display: none;
+}
+.active {
+  display: block;
 }
