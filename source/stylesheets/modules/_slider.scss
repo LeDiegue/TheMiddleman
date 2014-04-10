@@ -1,8 +1,6 @@
-/* Coda Slider (Video)
------------------------------------------------ */
 #page-wrap {
-  width: 450px; /* Ancho del contenedor general */
-  min-height: 365px; /* Alto del contenedor general */
+  width: 450px;
+  min-height: 365px;
   height: 350px;
   position: absolute;
   overflow: hidden;
@@ -15,32 +13,13 @@
   position: relative;
 }
 
-.stripViewer .panelContainer .panel ul {
-  text-align: left;
-  margin: 0 15px 0 30px;
-}
-
-.stripViewer {
-  position: relative;
-  overflow: hidden;
-  width: 450px; /* Ancho del contenedor de los videos */
-  height: 390px; /* Alto del contenedor de los videos */
-  margin-bottom:7px;
-}
 iframe {
   position: relative;
   border: 0;
   z-index: 0;
 }
 
-.stripViewer .panelContainer { position: relative; left: 0; top: 0; }
-.stripViewer .panelContainer .panel { float: left; height: 100%; position: relative; width: 450px; }
-.stripNavL, .stripNavR, .stripNav { display: none; }
-//.img { border: 1px solid black; margin-right: 5px; width: 120px; height: 90px;}
-#movers-row { margin: -39px 0 0 62px; }
-#movers-row div { width: 16.6%; float: left; }
-//#movers-row div a.cross-link { float: right; margin-left: 800px; margin-top: -60px;}
-//.img { display: block; width: 58px; margin-top: -55px; position: relative; padding-top: 3px; z-index: 100; }
+
 .img {
   display: block;
   position: relative;
@@ -58,5 +37,5 @@ iframe {
   display: none;
 }
 .active {
-  display: block;
+display: block;
 }
